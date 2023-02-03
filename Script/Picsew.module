@@ -3,4 +3,4 @@
 [MITM] 
 hostname = buy.itunes.apple.com
 [Script]
-Picsew=type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,script-response-body,script-path=https://raw.githubusercontent.com/LittleXingzzZ/Shadowrocket/main/Script/Picsew.js
+Picsew=type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,response-body=1,script-path=https://raw.githubusercontent.com/LittleXingzzZ/Shadowrocket/main/Script/Picsew.js
